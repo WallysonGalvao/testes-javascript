@@ -4,6 +4,18 @@ module.exports = {
     browser: true,
     node: true,
   },
+  globals: {
+    cy: false,
+    Cypress: false,
+    cypress: false,
+    describe: false,
+    context: false,
+    beforeEach: false,
+    afterEach: false,
+    it: false,
+    assert: false,
+    expect: false,
+  },
   parserOptions: {
     parser: 'babel-eslint',
   },
